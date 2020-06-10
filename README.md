@@ -1,6 +1,6 @@
 # grab-red-packet
    
-    基于Spring、 SpringMVC、 MyBatis框架，结吅Redis，模拟高并发抢红包场景。使用JavaScript模拟3万人同时抢红包，后台采用两种方案实现并进行性能对比。
+    基于Spring、 SpringMVC、 MyBatis框架，结合Redis，模拟高并发抢红包场景。使用JavaScript模拟3万人同时抢红包，后台采用两种方案实现并进行性能对比。
 
     方案一：采用乐观锁并基于按次数重入机制实现高并发抢好包，保证高并发情况下的数据一致性；
     
